@@ -1,0 +1,9 @@
+{
+    "$schema": "https://uon.io/schemas/uon.json",
+    "name": "string-utils",
+    "projectType": "library",
+    "entry": "src/index.ts",
+    "options": {
+        "outputPath": "dist/string-utils"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@uon/string-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": {
+    "name": "Gabriel Roy",
+    "email": "gab@uon.io",
+    "url": "https://uon.io"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
