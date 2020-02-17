@@ -1,15 +1,18 @@
 
 
-
 /**
  * Transform an hypenated(with : - _ .) to camelcase
  * @param str the subject
  * @param upperCamelCase if true, capitalize the first letter
  */
 export function CamelCase(str: string, upperCamelCase?: boolean) {
-    return str.replace(/([\:\-\_\.]+(.))/g, (_, separator, letter, offset) => {
 
-        return offset || upperCamelCase ? letter.toUpperCase() : letter;
+    if(upperCamelCase === true) {
+        str = str.charAt(0).toUpperCase() + str.substr(1);
+    }
+
+    return str.replace(/([\:\-\_\.]+(.))/g, (_, separator, letter, offset) => {
+        return offset ? letter.toUpperCase() : letter;
     });
 }
 
