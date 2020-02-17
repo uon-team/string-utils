@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {},
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uon-team/string-utils.git"
+  },
   "author": {
     "name": "Gabriel Roy",
     "email": "gab@uon.io",
