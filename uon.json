@@ -4,6 +4,6 @@
     "projectType": "library",
     "entry": "src/index.ts",
     "options": {
-        "outputPath": "dist/string-utils"
+        "outputPath": "dist"
     }
 }
